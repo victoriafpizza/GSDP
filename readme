@@ -1,0 +1,57 @@
+_*GreenEnergy*_
+
+ERIC DE CARVALHO RODRIGUES - 550249
+MATHEUS ZANARDI - 98832
+VICTORIA FRANCESCHINI - 550609
+
+**Energia Sustentável**
+
+    Essse trabalho versa mostrar em programação dinamica como funciona o nosso projeto sobre gerar energia sustentável usando a 
+energia cinética gerada pelas pessoas que passsam todos os dias nas catracas do metro. Ou seja, a energia gerada pelas catracas 
+vai ser reutilizada para gerar energia para a própria estação. Essa solução tem sido testada em cidades como Paris, onde geradores
+em catracas estão ajudando a reduzir o consumo energético do sistema metroviário e as emissões de CO₂​. 
+
+    Cada catraca possui um rotor e um conjunto de bobinas que, ao girarem quando acionadas, passam por um campo magnético, 
+induzindo corrente elétrica (princípio da indução eletromagnética de Faraday). Assim, toda vez que um passageiro empurra a
+catraca, uma pequena quantidade de eletricidade é gerada. Embora a quantidade gerada por cada passagem seja baixa, em um sistema
+com alto fluxo de pessoas, como o metrô de São Paulo, o efeito acumulado se torna significativo ao longo do dia e do ano.
+
+*1. Simulação de Custo ao Longo do Tempo (Monte Carlo)*
+
+Arquivo: monte_carlo.py
+
+Essa biblioteca utiliza simulações de Monte Carlo para projetar cenários de custo ao longo do tempo. Considera variáveis como inflação, custos de manutenção e eficiência de conversão de energia. A função gera múltiplas simulações para fornecer uma visão abrangente dos possíveis custos futuros de implementação e operação.
+
+*2. Comparação de Fontes com Dividir para Conquistar*
+
+Arquivo: dividir_conquistar.py 
+
+Este módulo compara a viabilidade econômica de duas fontes de energia renovável (por exemplo, catracas e painéis solares) ao longo de diferentes períodos (curto, médio e longo prazo). A abordagem de Dividir para Conquistar é utilizada para dividir o problema em partes menores, tornando a análise mais gerenciável e detalhada.
+
+*3. Economia com Memoization*
+
+Arquivo: custos.py 
+
+Essa biblioteca implementa memoization para otimizar o cálculo dos custos totais de manutenção e operação das fontes de energia ao longo do tempo. Memoization armazena os resultados de cálculos anteriores, evitando repetição e melhorando a eficiência. O foco é garantir que os custos sejam calculados de forma rápida e precisa ao longo de muitos anos.
+
+*4. Avaliação Recursiva de Tarifas e Horizonte Temporal*
+
+Arquivo: recursiva_tarifas.py
+
+Este módulo contém uma função recursiva que simula o aumento dos custos de energia ao longo do tempo, baseado em uma tarifa inicial e uma taxa de incremento. A função ajuda a prever até que ponto uma fonte de energia permanece viável economicamente, considerando a taxa de crescimento dos custos de energia.
+
+*Arquivo Principal (main.py)*
+
+Arquivo: main.py 
+
+O arquivo principal orquestra a execução das funções das bibliotecas anteriores:
+
+- Realiza simulações de Monte Carlo para prever cenários de custo.
+
+- Compara a viabilidade econômica de diferentes fontes de energia usando a técnica de Dividir para Conquistar.
+
+- Utiliza memoization para otimizar o cálculo dos custos totais ao longo do tempo.
+
+- Simula o aumento das tarifas de energia ao longo dos anos com uma função recursiva.
+
+As funções são chamadas com parâmetros de exemplo, e os resultados são exibidos no console, proporcionando uma visão integrada e detalhada da viabilidade econômica das catracas como fonte de energia renovável.
