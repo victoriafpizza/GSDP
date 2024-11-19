@@ -13,7 +13,7 @@ em catracas estão ajudando a reduzir o consumo energético do sistema metroviá
 
     Cada catraca possui um rotor e um conjunto de bobinas que, ao girarem quando acionadas, passam por um campo magnético, 
 induzindo corrente elétrica (princípio da indução eletromagnética de Faraday). Assim, toda vez que um passageiro empurra a
-catraca, uma pequena quantidade de eletricidade é gerada. Embora a quantidade gerada por cada passagem seja baixa, em um sistema
+catraca, uma pequena quantidade de eletricidade é gerada. Embora a quantidade gerada por cada passagem seja baixa, em um sistema 
 com alto fluxo de pessoas, como o metrô de São Paulo, o efeito acumulado se torna significativo ao longo do dia e do ano.
 
 *1. Simulação de Custo ao Longo do Tempo (Monte Carlo)*
