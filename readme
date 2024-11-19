@@ -20,25 +20,33 @@ com alto fluxo de pessoas, como o metrô de São Paulo, o efeito acumulado se to
 
 Arquivo: monte_carlo.py
 
-Essa biblioteca utiliza simulações de Monte Carlo para projetar cenários de custo ao longo do tempo. Considera variáveis como inflação, custos de manutenção e eficiência de conversão de energia. A função gera múltiplas simulações para fornecer uma visão abrangente dos possíveis custos futuros de implementação e operação.
+Essa biblioteca utiliza simulações de Monte Carlo para projetar cenários de custo ao longo do tempo. Considera variáveis como inflação, 
+custos de manutenção e eficiência de conversão de energia. A função gera múltiplas simulações para fornecer uma visão abrangente dos
+possíveis custos futuros de implementação e operação.
 
 *2. Comparação de Fontes com Dividir para Conquistar*
 
 Arquivo: dividir_conquistar.py 
 
-Este módulo compara a viabilidade econômica de duas fontes de energia renovável (por exemplo, catracas e painéis solares) ao longo de diferentes períodos (curto, médio e longo prazo). A abordagem de Dividir para Conquistar é utilizada para dividir o problema em partes menores, tornando a análise mais gerenciável e detalhada.
+Este módulo compara a viabilidade econômica de duas fontes de energia renovável (por exemplo, catracas e painéis solares) ao longo de 
+diferentes períodos (curto, médio e longo prazo). A abordagem de Dividir para Conquistar é utilizada para dividir o problema em partes menores, 
+tornando a análise mais gerenciável e detalhada.
 
 *3. Economia com Memoization*
 
 Arquivo: custos.py 
 
-Essa biblioteca implementa memoization para otimizar o cálculo dos custos totais de manutenção e operação das fontes de energia ao longo do tempo. Memoization armazena os resultados de cálculos anteriores, evitando repetição e melhorando a eficiência. O foco é garantir que os custos sejam calculados de forma rápida e precisa ao longo de muitos anos.
+Essa biblioteca implementa memoization para otimizar o cálculo dos custos totais de manutenção e operação das fontes de energia ao longo
+do tempo. Memoization armazena os resultados de cálculos anteriores, evitando repetição e melhorando a eficiência. O foco é garantir que 
+os custos sejam calculados de forma rápida e precisa ao longo de muitos anos.
 
 *4. Avaliação Recursiva de Tarifas e Horizonte Temporal*
 
 Arquivo: recursiva_tarifas.py
 
-Este módulo contém uma função recursiva que simula o aumento dos custos de energia ao longo do tempo, baseado em uma tarifa inicial e uma taxa de incremento. A função ajuda a prever até que ponto uma fonte de energia permanece viável economicamente, considerando a taxa de crescimento dos custos de energia.
+Este módulo contém uma função recursiva que simula o aumento dos custos de energia ao longo do tempo, baseado em uma tarifa inicial e
+uma taxa de incremento. A função ajuda a prever até que ponto uma fonte de energia permanece viável economicamente, considerando a taxa 
+de crescimento dos custos de energia.
 
 *Arquivo Principal (main.py)*
 
