@@ -62,4 +62,5 @@ O arquivo principal orquestra a execução das funções das bibliotecas anterio
 
 - Simula o aumento das tarifas de energia ao longo dos anos com uma função recursiva.
 
-As funções são chamadas com parâmetros de exemplo, e os resultados são exibidos no console, proporcionando uma visão integrada e detalhada da viabilidade econômica das catracas como fonte de energia renovável.
+As funções são chamadas com parâmetros de exemplo, e os resultados são exibidos no console, proporcionando uma visão integrada e detalhada
+da viabilidade econômica das catracas como fonte de energia renovável.
